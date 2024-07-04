@@ -3,7 +3,7 @@ using GroupDocs.Conversion.Options.Convert;
 using GroupDocs.Conversion.FileTypes;
 using HtmlAgilityPack;
 using System.Net;
-static string GetURl(HtmlNode node){
+static string GetURl(HtmlNode node){ // may need to be changed but most of the time won't
     Console.WriteLine(node.GetAttributeValue("src", "a"));
     return node.GetAttributeValue("src", "a");
      
